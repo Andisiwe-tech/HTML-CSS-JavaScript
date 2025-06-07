@@ -42,5 +42,22 @@ ul{
 }
 
 li{
-    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+li:hover{
+    background-color: #d016b1;
+    color: antiquewhite;
+}
+
+li.competed{
+    text-decoration: line-through;
+    color: rgb(200, 192, 192);
 }
