@@ -20,3 +20,27 @@ input{
     margin-right: 5px;
 }
 
+button{
+  padding: 10px 15px; 
+  background-color: #d016b1; 
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    
+}
